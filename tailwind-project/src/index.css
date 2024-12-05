@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader {
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid;
+  border-top-color: transparent;
+  width: 1rem;
+  height: 1rem;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
